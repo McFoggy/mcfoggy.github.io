@@ -1,23 +1,180 @@
----
-layout: default
----
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
 
-<div class="home">
+Title      : Enlight
+Version    : 1.0
+Released   : 20070502
+Description: A two-column fixed-width template suitable for small business websites and blogs.
 
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<title>Les BROUILLARD sur le net...</title>
+<meta name="keywords" content="famille brouillard matthieu" />
+<meta name="description" content="Le site de la famille brouillard" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<div id="topmenu">
+		<ul>
+			<li><a href="http://www.brouillard.fr/" id="topmenu1" accesskey="1" title="">Home</a></li>
+			<li><a href="mailto:matthieu@brouillard.fr" id="topmenu2" accesskey="2" title="">Contact</a></li>
+			<li><a href="#" id="topmenu3" accesskey="3" title="">Sitemap</a></li>
+		</ul>
+	</div>
+	<div id="logo">
+		<h1><a href="#">BROUILLARD.FR</a></h1>
+		<h2><a href="http://www.brouillard.fr/">Le phare de la famille sur le web...</a></h2>
+	</div>
 </div>
+<div id="menu">
+	<ul>
+		<li class="first"><a href="#" title="">A propos</a></li>
+		<li><a href="#" title="">Membres</a></li>
+		<li><a href="mailto:matthieu@brouillard.fr" title="">Inscriptions</a></li>
+		<li><a href="#" title="">Support</a></li>
+	</ul>
+</div>
+<div id="content">
+	<div id="main">
+		<div id="welcome">
+			<h2>Bienvenue sur BROUILLARD.FR !!!</h2>
+			<p><strong>Brouillard.fr</strong> correspond au nom de domaine de notre nom de famille. J'ai fait l'acquisition de ce nom de domaine voici plus de 2 ans maintenant.<br />
+            Cette acquisition couvrait plusieurs buts:</p>
+			<ul>
+				<li>L'acquisition d'adresses mails fixes</li>
+				<li>Offrir ce service de mails aux parents/oncles/tantes/cousins/cousines/...</li>
+				<li>Créer un espace d'échange pour la famille (photos, blogs, wiki, ...)</li>
+			</ul>
+            Malheureusement, par manque de temps, jusqu'à présent je me suis cantonné à la gestion des différentes adresses mails.<br />
+            Peut-être que sous la pression des autres membres de la famille je ferai l'effort de créer un espace plus dynamique ;-)
+            <br /><br />
+            En attendant si vous voulez bénéficier d'une adresse mail en xxxx@brouillard.fr, contactez  <a href="mailto:matthieu@brouillard.fr">moi</a>.
+            <br/><br/>
+            Matthieu
+		</div>
+		<div id="cendrine-added">
+			<h2>Et une cousine de plus !</h2>
+			<p>Celà fait déjà quelques temps que j'avais configuré leur email, mais je n'avais pas encore communiqué là dessus.<br />
+            Je me rattrape donc ce soir pour souhaiter la bienvenue à Cendrine, Daniel, Charlie, Marion & Madlyn, que vous pouvez joindre à l'adresse : <a href="mailto:cendrine@brouillard.fr">cendrine@brouillard.fr</a>.<br />
+		</div>
+		<div id="jean-michel-added">
+			<h2>Les bretons se reveillent !</h2>
+			<p>Depuis hier vous pouvez désormais contactez une partie de la Bretagne au travers de notre communauté.<br />
+            Jean-Michel dispose désormais d'une adresse du club fermé des <b><i>"brouillard du net"</i></b> : <a href="mailto:jean-michel@brouillard.fr">Jean-Michel</a>.<br />
+            N'hésitez donc pas chers cousins/cousines/oncles/tantes/membres de la communauté à prendre contact avec lui ou avec ses femmme & enfants : Pascale, Fanny, Yoan, Tonny.</p>
+		</div>
+		<div id="caroline-back-again">
+			<h2>Caroline is back again !</h2>
+			<p>Ca y est, Caroline est de retour. la vilaine avait changé d'adresse sans le signaler.<br />
+            Donc normalement à partir de maintenant, vous pouvez de nouveau la pourrir avec les blagues du jour : <a href="mailto:caroline@brouillard.fr">Caroline</a>.</p>
+		</div>
+		<div id="welcome-benoit">
+			<h2>Benoît & Catherine nous rejoignent...</h2>
+			<p>L'Est/Sud-Est de Bordeaux se renforce. Après Rémy & Evelyne, c'est au tour de Benoît & Catherine de rejoindre le clan. <br/>Vous pouvez désormais les joindre à cette adresse : <a href="mailto:benoit@brouillard.fr">benoit@brouillard.fr</a></p>
+		</div>
+<!--
+		<div id="example">
+			<h2>A Few Examples of Common Tags</h2>
+			<p>This is an example of a paragraph followed by a blockquote. In posuere  eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula.  Pellentesque viverra vulputate enim. Aliquam erat volutpat lorem ipsum  dolorem.</p>
+			<blockquote>
+				<p>Pellentesque tristique ante ut  risus. Quisque dictum. Integer nisl risus, sagittis convallis, rutrum  id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec  placerat odio</p>
+			</blockquote>
+			<h3>Heading Level Three</h3>
+			<p>This is another example of a paragraph followed by an unordered list. In posuere  eleifend odio. Quisque semper augue mattis wisi. Maecenas ligula.  Viverra vulputate enim. Aliquam erat volutpat lorem ipsum  dolorem.</p>
+			<p>An ordered list example:</p>
+			<ol>
+				<li>List item number one</li>
+				<li>List item number two</li>
+				<li>List item number thre</li>
+			</ol>
+		</div>
+-->
+	</div>
+	<div id="sidebar">
+<!--    
+		<div id="login" class="boxed">
+			<h2 class="title">Client Account</h2>
+			<div class="content">
+				<form id="form1" method="post" action="#">
+					<fieldset>
+					<legend>Sign-In</legend>
+					<label for="inputtext1">Client ID:</label>
+					<input id="inputtext1" type="text" name="inputtext1" value="" />
+					<label for="inputtext2">Password:</label>
+					<input id="inputtext2" type="password" name="inputtext2" value="" />
+					<input id="inputsubmit1" type="submit" name="inputsubmit1" value="Sign In" />
+					<p><a href="#">Forgot your password?</a></p>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+-->
+		<div id="updates" class="boxed">
+			<h2 class="title">Mises à jour</h2>
+			<div class="content">
+				<ul>
+					<li>
+						<h3>14 Décembre 2009</h3>
+						<p><a href="mailto:cendrine@brouillard.fr">Cendrine</a> a été ajoutée.</a></p>
+					</li>
+					<li>
+						<h3>27 Août 2009</h3>
+						<p><a href="mailto:jean-michel@brouillard.fr">Jean-Michel</a> nous rejoint, bienvenu !</a></p>
+					</li>
+					<li>
+						<h3>29 Avril 2009</h3>
+						<p><a href="mailto:caroline@brouillard.fr">Caroline</a> est à nouveau joignable.</a></p>
+					</li>
+					<li>
+						<h3>29 Avril 2009</h3>
+						<p>Nouveau membre: bienvenue à <a href="mailto:benoit@brouillard.fr">Benoît</a></p>
+					</li>
+					<li>
+						<h3>27 Avril 2009</h3>
+						<p>Le mail de <a href="mailto:caroline@brouillard.fr">Caroline</a> ne répond plus...</p>
+					</li>
+					<li>
+						<h3>19 Avril 2009</h3>
+						<p>Ajouts de membres : <a href="mailto:yannick@brouillard.fr">Yannick</a> &amp; <a href="mailto:julie@brouillard.fr">Julie</a></p>
+					</li>
+					<li>
+						<h3>18 Avril 2009</h3>
+						<p>Création du site & mise en ligne.</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="membres" class="boxed">
+			<h2 class="title">Membres</h2>
+			<div class="content">
+				<ul>
+					<li><a href="mailto:matthieu@brouillard.fr">Matthieu</a></li>
+					<li><a href="mailto:valerie@brouillard.fr">Valérie</a></li>
+					<li><a href="mailto:dominique@brouillard.fr">Dominique</a></li>
+					<li><a href="mailto:caroline@brouillard.fr">Caroline</a></li>
+					<li><a href="mailto:julie@brouillard.fr">Julie</a></li>
+					<li><a href="mailto:jean-marie@brouillard.fr">Jean-Marie</a></li>
+					<li><a href="mailto:remy@brouillard.fr">Rémy</a></li>
+					<li><a href="mailto:yannick@brouillard.fr">Yannick</a></li>
+					<li><a href="mailto:benoit@brouillard.fr">Benoît</a></li>
+					<li><a href="mailto:jean-michel@brouillard.fr">Jean-Michel</a></li>
+					<li><a href="mailto:cendrine@brouillard.fr">Cendrine</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p id="legal">Copyright &copy; 2009 <a href="mailto:matthieu@brouillard.fr">Matthieu Brouillard</a>. All Rights Reserved. From a template by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.</p>
+<!--
+	<p id="links"><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p>
+-->
+</div>
+</body>
+</html>
